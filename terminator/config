@@ -1,0 +1,28 @@
+[global_config] 
+  borderless = True
+  extra_styling = False
+  title_font = DejaVu Sans Mono 14
+  title_use_system_font = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window 0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = " "
+      type = Window
+[pugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.6
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    delete_binding = automatic
+    font = DejaVu Sans Mono 18
+    foreground_color = "#ffffff"
+    icon_bell = False
+    scrollback_lines = 10000
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
